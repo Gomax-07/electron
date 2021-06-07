@@ -1933,6 +1933,10 @@ This is a known limitation in Chromium, you can force image animation to be
 recalculated with `img.src = img.src` which will result in no network traffic
 but will update the animation policy.
 
+This corresponds to the [animationPolicy][] accessibility feature in Chromium.
+
+[animationPolicy]: https://developer.chrome.com/docs/extensions/reference/accessibilityFeatures/#property-animationPolicy
+
 ### Instance Properties
 
 #### `contents.audioMuted`
